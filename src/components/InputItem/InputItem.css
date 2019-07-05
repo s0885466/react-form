@@ -1,0 +1,12 @@
+div.form-group > i {
+    color: #ff7559;
+}
+
+input {
+    transition: 0.5s!important;
+}
+
+input:focus {
+    margin-top:-2px!important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)!important;
+}

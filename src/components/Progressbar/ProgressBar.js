@@ -2,19 +2,19 @@ import React, {Component} from 'react';
 import './ProgressBar.css';
 
 
-class ProgressBar extends Component {
+export default class ProgressBar extends Component {
 
     render() {
+
+        const {percent} = this.props;
         const style = {
-            width: `${this.props.persent}%`
+            width: `${percent}%`
         };
 
         return (
-            <div className="progress mt-5">
+            <div className="progress mt-5 mb-5">
                 <div className="p-bar" style={style}></div>
             </div>
         );
     }
 }
-
-export default ProgressBar;

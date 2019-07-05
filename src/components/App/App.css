@@ -1,0 +1,11 @@
+.text-area {
+    transition: 2s;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
