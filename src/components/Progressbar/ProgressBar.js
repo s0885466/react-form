@@ -13,7 +13,7 @@ export default class ProgressBar extends Component {
 
         return (
             <div className="progress mt-5 mb-5">
-                <div className="p-bar" style={style}></div>
+                <div className="p-bar bg-primary" style={style}></div>
             </div>
         );
     }

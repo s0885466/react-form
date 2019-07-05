@@ -7,6 +7,6 @@ input {
 }
 
 input:focus {
-    margin-top:-2px!important;
+    padding-bottom: 10px!important;
     box-shadow: 0 0 10px rgba(0,0,0,0.5)!important;
 }
