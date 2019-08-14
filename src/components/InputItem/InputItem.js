@@ -6,7 +6,6 @@ class InputItem extends Component {
         const newValue = e.target.value;
         const {id} = this.props;
         this.props.checkInput(id, newValue);
-
     };
 
     render() {

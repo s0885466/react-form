@@ -3,6 +3,7 @@ import ProgressBar from '../Progressbar';
 import InputArea from '../InputArea';
 import Submit from '../Submit';
 import checkModel from '../../Models/CheckModel';
+import {Link} from "../Link/Link";
 
 import './App.css';
 
@@ -81,6 +82,7 @@ export default class App extends Component {
         return (
             <form>
                 <ProgressBar percent={progressBar.percent} addPercent={this.addPercent}/>
+                <Link>Это ссылка</Link>
                 <InputArea inputs={inputs} checkInput={(id, value) => this.checkInput(id, value)}/>
                 <Submit submit={submit} onSubmitClick={this.onSubmitClick}/>
                 <div className={`text-center ${textArea.class} text-area` }>Форма отправлена, наши менеджеры связжутся с Вами</div>

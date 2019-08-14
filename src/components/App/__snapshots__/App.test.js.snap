@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <App/> <App/> have rendered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Testing state <App/> <App/> have rendered correctly 1`] = `ShallowWrapper {}`;
